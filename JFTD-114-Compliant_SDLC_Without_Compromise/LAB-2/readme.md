@@ -8,7 +8,7 @@ Before you begin, make sure you have the following:
     - url: http://academy-artifactory/
     - user: admin
     - password: Admin1234!
-- A Project to Scan: Sample NodeJS project is ready to be scanned
+- A Project to Scan: Sample Java project is ready to be scanned
 
 ## Setup & Instructions
 - Open the JFrog Extension: In the Visual Studio Code activity bar on the left, click on the JFrog frog icon to open the extension.
