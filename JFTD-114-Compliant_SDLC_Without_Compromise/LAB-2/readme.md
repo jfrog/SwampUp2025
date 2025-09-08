@@ -17,10 +17,10 @@ Before you begin, make sure you have the following:
 - Connect to Your JFrog Platform: A pop-up will appear asking you to sign in using JFrog CLI. Click "Sure!" and follow the prompts to authenticate with your JFrog Platform URL and credentials.
 <img src="./images/vscode-1.png" /> <br/>
 
-- Open the Project Folder: Once authenticated, you need to open the lab's project folder. Click on "Open Folder" and navigate to the directory /root/jfrog/JFTD-114-Compliant_SDLC_Without_Compromise/LAB-2/node-app.
+- Open the Project Folder: Once authenticated, you need to open the lab's project folder. Click on "Open Folder" and navigate to the directory /root/jfrog/JFTD-114-Compliant_SDLC_Without_Compromise/LAB-2/java-app.
 <img src="./images/vscode-2.png" /> <br/>
 
-- Explore the Project: You can now see the file structure of the node-app project in the Explorer view. This is a simple Node.js application with several dependencies.
+- Explore the Project: You can now see the file structure of the java-app project in the Explorer view. 
 <img src="./images/vscode-3.png" /> <br/>
 
 - Initiate a Scan: The JFrog extension will automatically start scanning your project for security vulnerabilities. You can see the "Scanning..." status in the JFrog extension view.
@@ -36,12 +36,12 @@ Before you begin, make sure you have the following:
 
 
 ## Conclusion
-Congratulations! You have successfully scanned a Node.js application for security vulnerabilities using the JFrog extension for Visual Studio Code.
+Congratulations! You have successfully scanned a java-app for security vulnerabilities using the JFrog extension for Visual Studio Code.
 <br/>
 In this lab, you learned how integrating security scanning directly into your IDE can help you shift security left, enabling you to find and fix issues earlier in the development lifecycle. This proactive approach to security helps reduce risk and ensures that you are building more secure applications.
 
 ## References
-- Source code forked from https://github.com/OWASP/NodeGoat
+- Source code forked from https://github.com/WebGoat/WebGoat
 - JFrog IDE: https://jfrog.com/help/r/jfrog-security-user-guide/shift-left-on-security/ides 
-- JFrog CLI: https://docs.jfrog-applications.jfrog.io/jfrog-applications/jfrog-cli/binaries-management-with-jfrog-artifactory/package-managers-integration#building-npm-packages-using-the-npm-client
-- [![Walk through LAB-2 demo](https://img.youtube.com/vi/azjnRsV6SYA/0.jpg)](https://youtu.be/azjnRsV6SYA) 
+- JFrog CLI: https://docs.jfrog-applications.jfrog.io/jfrog-applications/jfrog-cli/binaries-management-with-jfrog-artifactory/package-managers-integration#running-maven
+[![Walk through LAB-2 demo](https://img.youtube.com/vi/azjnRsV6SYA/0.jpg)](https://youtu.be/ZvYLXtMYtD4) 
