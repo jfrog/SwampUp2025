@@ -3,9 +3,9 @@
 
 ### [LAB-1: OSS Filtering using Curated Remote Repo](./LAB-1/)
 Curation: Waiver Workflow management 
-- Blocking copy left licenses"
+- Blocking GPL 3.0 licenses
 #### Hands-on excerise
-- [Python App](./LAB-1/py-app/)
+- [Java App](./LAB-1/java-app/)
 
 
 ### [LAB-2: Identify Secrets & Malicious Indicators](./LAB-2/)
@@ -13,7 +13,7 @@ Xray & JAS
 - Dev personal: IDE
 - SBOM and vuln remediation
 #### Hands-on excerise
-- [Node App](./LAB-2/node-app/)
+- [Java App](./LAB-2/java-app/)
 
 
 ### [LAB-3: JFrog RLM & Evidence](./LAB-3/)
