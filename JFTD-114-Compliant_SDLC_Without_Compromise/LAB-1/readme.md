@@ -131,4 +131,4 @@ After approval, the developer can successfully resolve and download the dependen
 ## References
 - JFrog CLI: https://docs.jfrog-applications.jfrog.io/jfrog-applications/jfrog-cli/binaries-management-with-jfrog-artifactory/package-managers-integration
 - Curation supported technologies: https://jfrog.com/help/r/jfrog-security-user-guide/products/curation/supported-technologies
-[![Walk through LAB-1 demo](https://img.youtube.com/vi/tZggXexQ0AI/0.jpg)](https://youtu.be/tZggXexQ0AI) 
+[![Walk through LAB-1 demo](https://img.youtube.com/vi/tZggXexQ0AI/0.jpg)](https://youtu.be/G7GCzMtV1K8) 
