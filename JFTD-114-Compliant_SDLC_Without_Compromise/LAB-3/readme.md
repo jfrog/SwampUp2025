@@ -164,4 +164,4 @@ In this lab, you have seen how JFrog CLI can automate the process of building, s
 - Xray
     - Rest APIs: https://jfrog.com/help/r/xray-rest-apis
     - https://jfrog.com/help/r/jfrog-security-user-guide/products/xray
-[![Walk through LAB-3 demo](https://img.youtube.com/vi/7rSrEa74eSA/0.jpg)](https://youtu.be/7rSrEa74eSA) 
+- [![Walk through LAB-3 demo](https://img.youtube.com/vi/7rSrEa74eSA/0.png)](https://youtu.be/7rSrEa74eSA) 

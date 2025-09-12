@@ -44,4 +44,4 @@ In this lab, you learned how integrating security scanning directly into your ID
 - Source code forked from https://github.com/WebGoat/WebGoat
 - JFrog IDE: https://jfrog.com/help/r/jfrog-security-user-guide/shift-left-on-security/ides 
 - JFrog CLI: https://docs.jfrog-applications.jfrog.io/jfrog-applications/jfrog-cli/binaries-management-with-jfrog-artifactory/package-managers-integration#running-maven
-[![Walk through LAB-2 demo](https://img.youtube.com/vi/azjnRsV6SYA/0.jpg)](https://youtu.be/ZvYLXtMYtD4) 
+- [![Walk through LAB-2 demo](https://img.youtube.com/vi/azjnRsV6SYA/0.png)](https://youtu.be/ZvYLXtMYtD4)  
