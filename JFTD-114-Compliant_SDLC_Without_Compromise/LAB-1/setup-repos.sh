@@ -24,7 +24,7 @@ create-remote-repos(){
 create-local-repos(){
     # Create new LOCAL repo and refer https://jfrog.com/help/r/jfrog-rest-apis/create-multiple-repositories
     printf "\n\n 2. Creating LOCAL repositories \n"
-    reposData="[ {\"key\": \"jftd114-lab1-mvn-local\", \"packageType\": \"maven\", \"rclass\": \"local\", \"xrayIndex\": true }, {\"key\": \"jftd114-lab4-generic-local\", \"packageType\": \"generic\", \"rclass\": \"local\", \"xrayIndex\": true }  ]"
+    reposData="[ {\"key\": \"jftd114-lab1-mvn-local\", \"packageType\": \"maven\", \"rclass\": \"local\", \"xrayIndex\": true }  ]"
 
     repoResponse=$(jf rt curl -XPUT /api/v2/repositories/batch --header 'Content-Type: application/json' --data "$reposData")
     printf "LOCAL Repositories created:\n $repoResponse \n\n"
