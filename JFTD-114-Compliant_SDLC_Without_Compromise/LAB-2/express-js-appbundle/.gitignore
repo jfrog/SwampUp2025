@@ -5,3 +5,4 @@
 other/
 common/
 *.tf
+package-lock.json
