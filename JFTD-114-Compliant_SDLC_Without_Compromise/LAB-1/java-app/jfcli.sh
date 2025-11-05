@@ -21,7 +21,7 @@ printf "JF_RT_URL: $JF_RT_URL \n JFROG_RT_USER: $JFROG_RT_USER \n JFROG_CLI_LOG_
 jf mvnc --global --repo-resolve-releases ${RT_REPO_VIRTUAL} --repo-resolve-snapshots ${RT_REPO_VIRTUAL} --repo-deploy-releases ${RT_REPO_VIRTUAL} --repo-deploy-snapshots ${RT_REPO_VIRTUAL}
 
 # Curation waiver request
-# printf "\n\n**** Curation Waiver Request ****\n\n"
-# jf ca --format=table --threads=100
+printf "\n\n**** Curation Waiver Request ****\n\n"
+jf ca --format=table --threads=100
 
 # jf mvn clean install --build-name=${BUILD_NAME} --build-number=${BUILD_ID} --detailed-summary=true && jf rt bp ${BUILD_NAME} ${BUILD_ID} --detailed-summary=true
