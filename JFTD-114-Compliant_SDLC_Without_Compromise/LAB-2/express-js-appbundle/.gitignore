@@ -1,0 +1,9 @@
+**/.DS_Store
+.DS_Store
+.VSCodeCounter/
+.jfrog/
+node_modules/
+other/
+common/
+*.tf
+package-lock.json
