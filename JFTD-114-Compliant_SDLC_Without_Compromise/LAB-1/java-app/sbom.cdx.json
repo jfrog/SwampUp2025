@@ -1,0 +1,3141 @@
+{
+    "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.6",
+    "serialNumber": "urn:uuid:fcf80897-69bd-4244-9e5f-12dcfa36b9f0",
+    "version": 1,
+    "metadata":
+    {
+        "timestamp": "2025-11-06T21:23:14Z",
+        "tools":
+        [
+            {
+                "vendor": "OWASP",
+                "name": "Dependency-Track",
+                "version": "4.12.3"
+            }
+        ],
+        "component":
+        {
+            "type": "library",
+            "name": "starsupplier:dgs-skeleton-webapp",
+            "version": "1.2.27",
+            "purl": "pkg:maven/starsupplier/dgs-skeleton-webapp@1.2.27"
+        }
+    },
+    "components":
+    [
+        {
+            "bom-ref": "pkg:maven/ch.qos.logback/logback-classic@1.2.3",
+            "type": "library",
+            "name": "ch.qos.logback:logback-classic",
+            "version": "1.2.3",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "fb53f8539e7fcb8f093a56e138112056ec1dc809ebb020b59d8a36a5ebac37e0"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "EPL-1.0",
+                        "url": "http://www.eclipse.org/legal/epl-v10.html"
+                    }
+                },
+                {
+                    "license":
+                    {
+                        "id": "LGPL-2.1-only",
+                        "url": "http://www.gnu.org/licenses/old-licenses/lgpl-2.1-standalone.html"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/ch.qos.logback/logback-classic@1.2.3",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/ch.qos.logback/logback-core@1.2.3",
+            "type": "library",
+            "name": "ch.qos.logback:logback-core",
+            "version": "1.2.3",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "5946d837fe6f960c02a53eda7a6926ecc3c758bbdd69aa453ee429f858217f22"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "EPL-1.0",
+                        "url": "http://www.eclipse.org/legal/epl-v10.html"
+                    }
+                },
+                {
+                    "license":
+                    {
+                        "id": "LGPL-2.1-only",
+                        "url": "http://www.gnu.org/licenses/old-licenses/lgpl-2.1-standalone.html"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/ch.qos.logback/logback-core@1.2.3",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/com.apollographql.federation/federation-graphql-java-support@2.0.0",
+            "type": "library",
+            "name": "com.apollographql.federation:federation-graphql-java-support",
+            "version": "2.0.0",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "7184eab4f8d1c3bbce6e800b1d9c18989073c40fcae09fdabdf38ae4f0c4839d"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "MIT",
+                        "url": "http://www.opensource.org/licenses/MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/com.apollographql.federation/federation-graphql-java-support@2.0.0",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/com.apollographql.federation/federation-graphql-java-support-api@2.0.0",
+            "type": "library",
+            "name": "com.apollographql.federation:federation-graphql-java-support-api",
+            "version": "2.0.0",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "1611c9a492256039c4269a597e3726bd44bcfe527000536662b5db7b3c052bf7"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "MIT",
+                        "url": "http://www.opensource.org/licenses/MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/com.apollographql.federation/federation-graphql-java-support-api@2.0.0",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.11.4",
+            "type": "library",
+            "name": "com.fasterxml.jackson.core:jackson-annotations",
+            "version": "2.11.4",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "2ab76f64048673675f26ddd1008a32889855d8a126273edae2aeee516785a1ec"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "http://licenses.nuget.org/Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.11.4",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.11.4",
+            "type": "library",
+            "name": "com.fasterxml.jackson.core:jackson-core",
+            "version": "2.11.4",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "e1dda269f16f3be00578f3a46c754f098245c7a480b86e07030b6ee7087ee1f1"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "http://licenses.nuget.org/Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.11.4",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.11.4",
+            "type": "library",
+            "name": "com.fasterxml.jackson.core:jackson-databind",
+            "version": "2.11.4",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "dc64fa3907bd299f29ad6116169e583333d04404b23a0f81ed679afa8e2a2ee8"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "http://licenses.nuget.org/Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.11.4",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jdk8@2.11.4",
+            "type": "library",
+            "name": "com.fasterxml.jackson.datatype:jackson-datatype-jdk8",
+            "version": "2.11.4",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "2ed8e417d190c370753ed3eb4f5193378e11ddea8736f952bd0264844600faaf"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "http://licenses.nuget.org/Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jdk8@2.11.4",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jsr310@2.11.4",
+            "type": "library",
+            "name": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310",
+            "version": "2.11.4",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "4f70ec64696f8de547773d7f8d5243ab7d11dc42a854df1764fa16837b6f53af"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "http://licenses.nuget.org/Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jsr310@2.11.4",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/com.fasterxml.jackson.module/jackson-module-kotlin@2.11.4",
+            "type": "library",
+            "name": "com.fasterxml.jackson.module:jackson-module-kotlin",
+            "version": "2.11.4",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "4e9f9eea41745edf45e8555e0a70742a2b769dea3225585a21ba8f9b09b165bd"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "http://licenses.nuget.org/Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/com.fasterxml.jackson.module/jackson-module-kotlin@2.11.4",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/com.fasterxml.jackson.module/jackson-module-parameter-names@2.11.4",
+            "type": "library",
+            "name": "com.fasterxml.jackson.module:jackson-module-parameter-names",
+            "version": "2.11.4",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "fb3f84a7318af5a7b577ecf23d577d6b0e2162496dd61ab3f2a39df1a1c1cc3e"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "http://licenses.nuget.org/Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/com.fasterxml.jackson.module/jackson-module-parameter-names@2.11.4",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/com.github.mifmif/generex@1.0.2",
+            "type": "library",
+            "name": "com.github.mifmif:generex",
+            "version": "1.0.2",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "8f8ce233c335e08e113a3f9579de1046fb19927e82468b1bbebcd6cba8760b81"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "http://licenses.nuget.org/Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/com.github.mifmif/generex@1.0.2",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/com.google.guava/guava@31.0.1-jre",
+            "type": "library",
+            "name": "com.google.guava:guava",
+            "version": "31.0.1-jre",
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "http://licenses.nuget.org/Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/com.google.guava/guava@31.0.1-jre",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/com.google.protobuf/protobuf-java@3.19.4",
+            "type": "library",
+            "name": "com.google.protobuf:protobuf-java",
+            "version": "3.19.4",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "e8f524c2ad5965aae31b0527bf9d4e3bc19b0dfba8c05aef114fccc7f057c94d"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "BSD-3-Clause",
+                        "url": "http://opensource.org/licenses/BSD-3-Clause"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/com.google.protobuf/protobuf-java@3.19.4",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/com.graphql-java/graphql-java@18.3",
+            "type": "library",
+            "name": "com.graphql-java:graphql-java",
+            "version": "18.3",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "84cbe0245026e2fbd5a87bdaa6fd99b75fa8ebe50306f093fcb0ea21226043eb"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "MIT",
+                        "url": "http://www.opensource.org/licenses/MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/com.graphql-java/graphql-java@18.3",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/com.graphql-java/java-dataloader@3.1.2",
+            "type": "library",
+            "name": "com.graphql-java:java-dataloader",
+            "version": "3.1.2",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "7ecc6da0dda5a2051420700f2e5ca7abcfe14a83d9980a6473ef8bfaa4222dc4"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "http://licenses.nuget.org/Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/com.graphql-java/java-dataloader@3.1.2",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/com.jayway.jsonpath/json-path@2.4.0",
+            "type": "library",
+            "name": "com.jayway.jsonpath:json-path",
+            "version": "2.4.0",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "60441c74fb64e5a480070f86a604941927aaf684e2b513d780fb7a38fb4c5639"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "http://licenses.nuget.org/Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/com.jayway.jsonpath/json-path@2.4.0",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/com.netflix.graphql.dgs/graphql-dgs@5.3.0",
+            "type": "library",
+            "name": "com.netflix.graphql.dgs:graphql-dgs",
+            "version": "5.3.0",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "8c3d8a04fa6d68ee13b43b83f5dc120f7ce5aebc6ff4ffc772284c19b61ba0ae"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "http://licenses.nuget.org/Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/com.netflix.graphql.dgs/graphql-dgs@5.3.0",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/com.netflix.graphql.dgs/graphql-dgs-client@5.3.0",
+            "type": "library",
+            "name": "com.netflix.graphql.dgs:graphql-dgs-client",
+            "version": "5.3.0",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "8f59ca37cb18395f99e2265e042a5641a9ecc3a7c3dbbcfbfb19444839c19295"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "http://licenses.nuget.org/Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/com.netflix.graphql.dgs/graphql-dgs-client@5.3.0",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/com.netflix.graphql.dgs/graphql-dgs-mocking@5.3.0",
+            "type": "library",
+            "name": "com.netflix.graphql.dgs:graphql-dgs-mocking",
+            "version": "5.3.0",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "fb298b521d31a11c98f3fdf73a2c79eab6a03e91efc66d28789584fc8da302f5"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "http://licenses.nuget.org/Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/com.netflix.graphql.dgs/graphql-dgs-mocking@5.3.0",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/com.netflix.graphql.dgs/graphql-dgs-spring-boot-oss-autoconfigure@5.3.0",
+            "type": "library",
+            "name": "com.netflix.graphql.dgs:graphql-dgs-spring-boot-oss-autoconfigure",
+            "version": "5.3.0",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "43b64f015b9d787d37eea38b9e1004e8dc0c4a0847fc7585f3c3981cb33200a0"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "http://licenses.nuget.org/Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/com.netflix.graphql.dgs/graphql-dgs-spring-boot-oss-autoconfigure@5.3.0",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/com.netflix.graphql.dgs/graphql-dgs-spring-boot-starter@5.3.0",
+            "type": "library",
+            "name": "com.netflix.graphql.dgs:graphql-dgs-spring-boot-starter",
+            "version": "5.3.0",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "f185e29dfe14f8664be9b9e23e25af3e30fd591c17e37176fac75004bdda3b3e"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "http://licenses.nuget.org/Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/com.netflix.graphql.dgs/graphql-dgs-spring-boot-starter@5.3.0",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/com.netflix.graphql.dgs/graphql-dgs-spring-webmvc@5.3.0",
+            "type": "library",
+            "name": "com.netflix.graphql.dgs:graphql-dgs-spring-webmvc",
+            "version": "5.3.0",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "5530b3856d5d13daa9284cbd31122960e458b4016bd9c0fee7c3211be7b36738"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "http://licenses.nuget.org/Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/com.netflix.graphql.dgs/graphql-dgs-spring-webmvc@5.3.0",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/com.netflix.graphql.dgs/graphql-dgs-spring-webmvc-autoconfigure@5.3.0",
+            "type": "library",
+            "name": "com.netflix.graphql.dgs:graphql-dgs-spring-webmvc-autoconfigure",
+            "version": "5.3.0",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "3eb9130d18c38a0f9a7f34a8f4f477f6a3d900e2f59ac611cace8020db208a28"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "http://licenses.nuget.org/Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/com.netflix.graphql.dgs/graphql-dgs-spring-webmvc-autoconfigure@5.3.0",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/com.netflix.graphql.dgs/graphql-dgs-subscription-types@5.3.0",
+            "type": "library",
+            "name": "com.netflix.graphql.dgs:graphql-dgs-subscription-types",
+            "version": "5.3.0",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "1df7ee222eb1c5de14a3a3786be26105bf8a906c0ce2e6fb0055a62969780e4d"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "http://licenses.nuget.org/Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/com.netflix.graphql.dgs/graphql-dgs-subscription-types@5.3.0",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/com.netflix.graphql.dgs/graphql-error-types@5.3.0",
+            "type": "library",
+            "name": "com.netflix.graphql.dgs:graphql-error-types",
+            "version": "5.3.0",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "a2ca894ea7e5d3150bdcfb1eccee37204beb935364847f83232cb61949eaf089"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "http://licenses.nuget.org/Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/com.netflix.graphql.dgs/graphql-error-types@5.3.0",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/dk.brics.automaton/automaton@1.11-8",
+            "type": "library",
+            "name": "dk.brics.automaton:automaton",
+            "version": "1.11-8",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "a24475f6ccfe1cc7a4fe9e34e05ce687b0ce0c6e8cb781e0eced3b186482c61e"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "BSD-2-Clause",
+                        "url": "http://opensource.org/licenses/BSD-2-Clause"
+                    }
+                },
+                {
+                    "license":
+                    {
+                        "id": "BSD-3-Clause",
+                        "url": "http://opensource.org/licenses/BSD-3-Clause"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/dk.brics.automaton/automaton@1.11-8",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/starsupplier/dgs-skeleton-webapp@1.2.27",
+            "type": "library",
+            "name": "starsupplier:dgs-skeleton-webapp",
+            "version": "1.2.27",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "604df0f868b3cb70c56af445847377b494dccb87dcf691e824b6abc09380500d"
+                }
+            ],
+            "licenses":
+            [],
+            "purl": "pkg:maven/starsupplier/dgs-skeleton-webapp@1.2.27",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/starsupplier/dgs-skeleton-webapp@%24%7Brevision%7D",
+            "type": "library",
+            "name": "starsupplier:dgs-skeleton-webapp",
+            "version": "${revision}",
+            "licenses":
+            [],
+            "purl": "pkg:maven/starsupplier/dgs-skeleton-webapp@%24%7Brevision%7D",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/io.projectreactor/reactor-core@3.4.10",
+            "type": "library",
+            "name": "io.projectreactor:reactor-core",
+            "version": "3.4.10",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "2859a61f9fa883673a71bb1f3dc83a110b43b199909c1205511724a5876c0129"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "http://licenses.nuget.org/Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/io.projectreactor/reactor-core@3.4.10",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/jakarta.annotation/jakarta.annotation-api@1.3.5",
+            "type": "library",
+            "name": "jakarta.annotation:jakarta.annotation-api",
+            "version": "1.3.5",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "85fb03fc054cdf4efca8efd9b6712bbb418e1ab98241c4539c8585bbc23e1b8a"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Classpath-exception-2.0"
+                    }
+                },
+                {
+                    "license":
+                    {
+                        "id": "EPL-2.0",
+                        "url": "https://spdx.org/licenses/EPL-2.0"
+                    }
+                },
+                {
+                    "license":
+                    {
+                        "id": "GPL-2.0-only",
+                        "url": "http://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/jakarta.annotation/jakarta.annotation-api@1.3.5",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/jakarta.servlet/jakarta.servlet-api@4.0.4",
+            "type": "library",
+            "name": "jakarta.servlet:jakarta.servlet-api",
+            "version": "4.0.4",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "586e27706c21258f5882f43be06904f49b02db9ac54e345d393fe4a32494d127"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Classpath-exception-2.0"
+                    }
+                },
+                {
+                    "license":
+                    {
+                        "id": "EPL-2.0",
+                        "url": "https://spdx.org/licenses/EPL-2.0"
+                    }
+                },
+                {
+                    "license":
+                    {
+                        "id": "GPL-2.0-only",
+                        "url": "http://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/jakarta.servlet/jakarta.servlet-api@4.0.4",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/net.datafaker/datafaker@1.4.0",
+            "type": "library",
+            "name": "net.datafaker:datafaker",
+            "version": "1.4.0",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "495778d398b286fbf70c23d2f2ac031b785750f0eed24c52e1a500d45da925ec"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "http://licenses.nuget.org/Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/net.datafaker/datafaker@1.4.0",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/net.minidev/accessors-smart@1.2",
+            "type": "library",
+            "name": "net.minidev:accessors-smart",
+            "version": "1.2",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "0c7c265d62fc007124dc32b91336e9c4272651d629bc5fa1a4e4e3bc758eb2e4"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "http://licenses.nuget.org/Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/net.minidev/accessors-smart@1.2",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/net.minidev/json-smart@2.3",
+            "type": "library",
+            "name": "net.minidev:json-smart",
+            "version": "2.3",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "903f48c8aa4c3f6426440b8d32de89fa1dc23b1169abde25e4e1d068aa67708b"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "http://licenses.nuget.org/Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/net.minidev/json-smart@2.3",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/org.antlr/antlr4-runtime@4.9.3",
+            "type": "library",
+            "name": "org.antlr:antlr4-runtime",
+            "version": "4.9.3",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "131a6594969bc4f321d652ea2a33bc0e378ca312685ef87791b2c60b29d01ea5"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "BSD-3-Clause",
+                        "url": "http://opensource.org/licenses/BSD-3-Clause"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/org.antlr/antlr4-runtime@4.9.3",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/org.apache.commons/commons-lang3@3.11",
+            "type": "library",
+            "name": "org.apache.commons:commons-lang3",
+            "version": "3.11",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "4ee380259c068d1dbe9e84ab52186f2acd65de067ec09beff731fca1697fdb16"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "http://licenses.nuget.org/Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/org.apache.commons/commons-lang3@3.11",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/org.apache.logging.log4j/log4j-api@2.18.0",
+            "type": "library",
+            "name": "org.apache.logging.log4j:log4j-api",
+            "version": "2.18.0",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "b977057233153b242ac58cc5b7d3121136b9c34c86c1e191c042ba4a828144c5"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "http://licenses.nuget.org/Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/org.apache.logging.log4j/log4j-api@2.18.0",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/org.apache.logging.log4j/log4j-to-slf4j@2.13.3",
+            "type": "library",
+            "name": "org.apache.logging.log4j:log4j-to-slf4j",
+            "version": "2.13.3",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "9624e9aaf60b1875adde33d8e7997de110b70be09e94e55ad8fc39637ec002c4"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "http://licenses.nuget.org/Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/org.apache.logging.log4j/log4j-to-slf4j@2.13.3",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@9.0.45",
+            "type": "library",
+            "name": "org.apache.tomcat.embed:tomcat-embed-core",
+            "version": "9.0.45",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "b65ee353868ffb331adbf338e55de3adc6a7907c0c5265f8ee2d7e5f7a2da92b"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "http://licenses.nuget.org/Apache-2.0"
+                    }
+                },
+                {
+                    "license":
+                    {
+                        "id": "CDDL-1.0",
+                        "url": "http://www.opensource.org/licenses/cddl1"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@9.0.45",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-websocket@9.0.45",
+            "type": "library",
+            "name": "org.apache.tomcat.embed:tomcat-embed-websocket",
+            "version": "9.0.45",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "094743c73247d171169c314d3767f13984930cf4fb458dabd031432f68a9e1d2"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "http://licenses.nuget.org/Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-websocket@9.0.45",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/org.glassfish/jakarta.el@3.0.3",
+            "type": "library",
+            "name": "org.glassfish:jakarta.el",
+            "version": "3.0.3",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "e2bcb8551b02a5c2afdc4cab77302ba5c76705cf1fc832345ca880df80bf4716"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "GPL-2.0-only",
+                        "url": "http://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html"
+                    }
+                },
+                {
+                    "license":
+                    {
+                        "id": "Classpath-exception-2.0"
+                    }
+                },
+                {
+                    "license":
+                    {
+                        "id": "EPL-2.0",
+                        "url": "https://spdx.org/licenses/EPL-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/org.glassfish/jakarta.el@3.0.3",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/org.jetbrains.kotlin/kotlin-reflect@1.4.32",
+            "type": "library",
+            "name": "org.jetbrains.kotlin:kotlin-reflect",
+            "version": "1.4.32",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "dbf19e9cdaa9c3c170f3f6f6ce3922f38dfc1d7fa1cab5b7c23a19da8b5eec5b"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "http://licenses.nuget.org/Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/org.jetbrains.kotlin/kotlin-reflect@1.4.32",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@1.4.32",
+            "type": "library",
+            "name": "org.jetbrains.kotlin:kotlin-stdlib",
+            "version": "1.4.32",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "13e9fd3e69dc7230ce0fc873a92a4e5d521d179bcf1bef75a6705baac3bfecba"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "http://licenses.nuget.org/Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@1.4.32",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-common@1.4.32",
+            "type": "library",
+            "name": "org.jetbrains.kotlin:kotlin-stdlib-common",
+            "version": "1.4.32",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "e1ff6f55ee9e7591dcc633f7757bac25a7edb1cc7f738b37ec652f10f66a4145"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "http://licenses.nuget.org/Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-common@1.4.32",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk7@1.4.32",
+            "type": "library",
+            "name": "org.jetbrains.kotlin:kotlin-stdlib-jdk7",
+            "version": "1.4.32",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "5f801e75ca27d8791c14b07943c608da27620d910a8093022af57f543d5d98b6"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "http://licenses.nuget.org/Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk7@1.4.32",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk8@1.4.32",
+            "type": "library",
+            "name": "org.jetbrains.kotlin:kotlin-stdlib-jdk8",
+            "version": "1.4.32",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "adc43e54757b106e0cd7b3b7aa257dff471b61efdabe067fc02b2f57e2396262"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "http://licenses.nuget.org/Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk8@1.4.32",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/org.jetbrains.kotlinx/kotlinx-coroutines-core@1.4.3",
+            "type": "library",
+            "name": "org.jetbrains.kotlinx:kotlinx-coroutines-core",
+            "version": "1.4.3",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "de487d57b156e4e237abbc9cf7fff8777b2495aff6caa8bc4e9cf6ec859f0224"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "http://licenses.nuget.org/Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/org.jetbrains.kotlinx/kotlinx-coroutines-core@1.4.3",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm@1.4.3",
+            "type": "library",
+            "name": "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm",
+            "version": "1.4.3",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "f7be08ddf86bd88020da7b78adbf44228799cca54d5c0c4396d850bc66725163"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "http://licenses.nuget.org/Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm@1.4.3",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/org.jetbrains.kotlinx/kotlinx-coroutines-jdk8@1.4.3",
+            "type": "library",
+            "name": "org.jetbrains.kotlinx:kotlinx-coroutines-jdk8",
+            "version": "1.4.3",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "b68c061cee92d270396de08da81f0f0c55c3cc1cd71eda77795f3e6eeda80e9e"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "http://licenses.nuget.org/Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/org.jetbrains.kotlinx/kotlinx-coroutines-jdk8@1.4.3",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/org.jetbrains.kotlinx/kotlinx-coroutines-reactive@1.4.3",
+            "type": "library",
+            "name": "org.jetbrains.kotlinx:kotlinx-coroutines-reactive",
+            "version": "1.4.3",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "9b0dd1a8312069b29ecd792e4fa20fd4064bf19a0345714950bc1a7d63f96951"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "http://licenses.nuget.org/Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/org.jetbrains.kotlinx/kotlinx-coroutines-reactive@1.4.3",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/org.jetbrains.kotlinx/kotlinx-coroutines-reactor@1.4.3",
+            "type": "library",
+            "name": "org.jetbrains.kotlinx:kotlinx-coroutines-reactor",
+            "version": "1.4.3",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "c49e32516ba282bd75c343c657c8a06485c3322f0812460206277da2d7092991"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "http://licenses.nuget.org/Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/org.jetbrains.kotlinx/kotlinx-coroutines-reactor@1.4.3",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/org.jetbrains/annotations@13.0",
+            "type": "library",
+            "name": "org.jetbrains:annotations",
+            "version": "13.0",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "ace2a10dc8e2d5fd34925ecac03e4988b2c0f851650c94b8cef49ba1bd111478"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "http://licenses.nuget.org/Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/org.jetbrains/annotations@13.0",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/org.ow2.asm/asm@5.0.4",
+            "type": "library",
+            "name": "org.ow2.asm:asm",
+            "version": "5.0.4",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "896618ed8ae62702521a78bc7be42b7c491a08e6920a15f89a3ecdec31e9a220"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "BSD-3-Clause",
+                        "url": "http://opensource.org/licenses/BSD-3-Clause"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/org.ow2.asm/asm@5.0.4",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/org.reactivestreams/reactive-streams@1.0.3",
+            "type": "library",
+            "name": "org.reactivestreams:reactive-streams",
+            "version": "1.0.3",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "1dee0481072d19c929b623e155e14d2f6085dc011529a0a0dbefc84cf571d865"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "CC0-1.0",
+                        "url": "http://creativecommons.org/publicdomain/zero/1.0/"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/org.reactivestreams/reactive-streams@1.0.3",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/org.slf4j/jul-to-slf4j@1.7.30",
+            "type": "library",
+            "name": "org.slf4j:jul-to-slf4j",
+            "version": "1.7.30",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "bbcbfdaa72572255c4f85207a9bfdb24358dc993e41252331bd4d0913e4988b9"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "MIT",
+                        "url": "http://www.opensource.org/licenses/MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/org.slf4j/jul-to-slf4j@1.7.30",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/org.slf4j/slf4j-api@1.7.30",
+            "type": "library",
+            "name": "org.slf4j:slf4j-api",
+            "version": "1.7.30",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "cdba07964d1bb40a0761485c6b1e8c2f8fd9eb1d19c53928ac0d7f9510105c57"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "MIT",
+                        "url": "http://www.opensource.org/licenses/MIT"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.30",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/org.springframework.boot/spring-boot@2.4.5",
+            "type": "library",
+            "name": "org.springframework.boot:spring-boot",
+            "version": "2.4.5",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "2e46ae8796df9ca1b4ad74eab608b19f771255321e7d9fafb64561e7e030869e"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "http://licenses.nuget.org/Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/org.springframework.boot/spring-boot@2.4.5",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/org.springframework.boot/spring-boot-autoconfigure@2.4.5",
+            "type": "library",
+            "name": "org.springframework.boot:spring-boot-autoconfigure",
+            "version": "2.4.5",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "12facab7c024ab9ae0819609859e0978bbd70b33f54c4a79f9c5b36843e3b5bb"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "http://licenses.nuget.org/Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/org.springframework.boot/spring-boot-autoconfigure@2.4.5",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/org.springframework.boot/spring-boot-starter@2.4.5",
+            "type": "library",
+            "name": "org.springframework.boot:spring-boot-starter",
+            "version": "2.4.5",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "4c498a0170b3df956f93e77e3db8dbbaae5352768c044debd4fbf090312238c4"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "http://licenses.nuget.org/Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/org.springframework.boot/spring-boot-starter@2.4.5",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/org.springframework.boot/spring-boot-starter-json@2.4.5",
+            "type": "library",
+            "name": "org.springframework.boot:spring-boot-starter-json",
+            "version": "2.4.5",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "19d3249ade85335c80b32570a26c2367046d488b6d84b4e1172a3ed5d6d52279"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "http://licenses.nuget.org/Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/org.springframework.boot/spring-boot-starter-json@2.4.5",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/org.springframework.boot/spring-boot-starter-logging@2.4.5",
+            "type": "library",
+            "name": "org.springframework.boot:spring-boot-starter-logging",
+            "version": "2.4.5",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "79ece93ce4200cc11734c9f957a6cd897a14b54fb6d31cc5958e764eac985a41"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "http://licenses.nuget.org/Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/org.springframework.boot/spring-boot-starter-logging@2.4.5",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/org.springframework.boot/spring-boot-starter-web@2.4.5",
+            "type": "library",
+            "name": "org.springframework.boot:spring-boot-starter-web",
+            "version": "2.4.5",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "a1115ad4741651aa151b827eede838d2c9eec1ea7c8a8f516ca6ae16c23de1a6"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "http://licenses.nuget.org/Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/org.springframework.boot/spring-boot-starter-web@2.4.5",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/org.springframework.boot/spring-boot-starter-websocket@2.4.5",
+            "type": "library",
+            "name": "org.springframework.boot:spring-boot-starter-websocket",
+            "version": "2.4.5",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "5296b61c1cefae0454ad732d39acc0e4cc546e099ce2924810a30d84a135a001"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "http://licenses.nuget.org/Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/org.springframework.boot/spring-boot-starter-websocket@2.4.5",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/org.springframework/spring-aop@5.3.6",
+            "type": "library",
+            "name": "org.springframework:spring-aop",
+            "version": "5.3.6",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "170ac6e303345b9be64b739d06d377b5303cc087eabc7d807d5a8c0efa22a41d"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "http://licenses.nuget.org/Apache-2.0"
+                    }
+                },
+                {
+                    "license":
+                    {
+                        "id": "BSD-3-Clause",
+                        "url": "http://opensource.org/licenses/BSD-3-Clause"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/org.springframework/spring-aop@5.3.6",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/org.springframework/spring-beans@5.3.6",
+            "type": "library",
+            "name": "org.springframework:spring-beans",
+            "version": "5.3.6",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "33331abcdd8acccea43666782a5807127a0d43ffc6abf1c3252fbb27fc3367b2"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "http://licenses.nuget.org/Apache-2.0"
+                    }
+                },
+                {
+                    "license":
+                    {
+                        "id": "BSD-3-Clause",
+                        "url": "http://opensource.org/licenses/BSD-3-Clause"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/org.springframework/spring-beans@5.3.6",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/org.springframework/spring-context@5.3.6",
+            "type": "library",
+            "name": "org.springframework:spring-context",
+            "version": "5.3.6",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "3e9064e26be66d2878d743b44890d404288049954ebe350a22d7dad0bc4fb0b2"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "http://licenses.nuget.org/Apache-2.0"
+                    }
+                },
+                {
+                    "license":
+                    {
+                        "id": "BSD-3-Clause",
+                        "url": "http://opensource.org/licenses/BSD-3-Clause"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/org.springframework/spring-context@5.3.6",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/org.springframework/spring-core@5.3.6",
+            "type": "library",
+            "name": "org.springframework:spring-core",
+            "version": "5.3.6",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "7d789153c82b2225f640261b2644fb60decafc6d5c01b9386f3e4e978231f46c"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "BSD-3-Clause",
+                        "url": "http://opensource.org/licenses/BSD-3-Clause"
+                    }
+                },
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "http://licenses.nuget.org/Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/org.springframework/spring-core@5.3.6",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/org.springframework/spring-expression@5.3.6",
+            "type": "library",
+            "name": "org.springframework:spring-expression",
+            "version": "5.3.6",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "c832354b8e953d8ca2f423c92ec16d7ccfd844d9bd2df629d4412754878f0750"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "http://licenses.nuget.org/Apache-2.0"
+                    }
+                },
+                {
+                    "license":
+                    {
+                        "id": "BSD-3-Clause",
+                        "url": "http://opensource.org/licenses/BSD-3-Clause"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/org.springframework/spring-expression@5.3.6",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/org.springframework/spring-jcl@5.3.6",
+            "type": "library",
+            "name": "org.springframework:spring-jcl",
+            "version": "5.3.6",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "9d56d08d322314793842355b79f860adad3688c6035ef9eded63fd9a0d29c489"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "http://licenses.nuget.org/Apache-2.0"
+                    }
+                },
+                {
+                    "license":
+                    {
+                        "id": "BSD-3-Clause",
+                        "url": "http://opensource.org/licenses/BSD-3-Clause"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/org.springframework/spring-jcl@5.3.6",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/org.springframework/spring-messaging@5.3.6",
+            "type": "library",
+            "name": "org.springframework:spring-messaging",
+            "version": "5.3.6",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "7f3491e73a48781ae39d93cb7b01b88c7d6fa802a8184d4a5d82ee36804289c1"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "http://licenses.nuget.org/Apache-2.0"
+                    }
+                },
+                {
+                    "license":
+                    {
+                        "id": "BSD-3-Clause",
+                        "url": "http://opensource.org/licenses/BSD-3-Clause"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/org.springframework/spring-messaging@5.3.6",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/org.springframework/spring-web@5.3.6",
+            "type": "library",
+            "name": "org.springframework:spring-web",
+            "version": "5.3.6",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "dd40db91f0ae291c451cb83b18787823249814fe9499d8333972718e9e6edbf7"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "BSD-3-Clause",
+                        "url": "http://opensource.org/licenses/BSD-3-Clause"
+                    }
+                },
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "http://licenses.nuget.org/Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/org.springframework/spring-web@5.3.6",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/org.springframework/spring-webflux@5.3.6",
+            "type": "library",
+            "name": "org.springframework:spring-webflux",
+            "version": "5.3.6",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "4c03bdbcd9af361e065277b387d6570a8660f8528abb657435f157c86eeb65ae"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "http://licenses.nuget.org/Apache-2.0"
+                    }
+                },
+                {
+                    "license":
+                    {
+                        "id": "BSD-3-Clause",
+                        "url": "http://opensource.org/licenses/BSD-3-Clause"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/org.springframework/spring-webflux@5.3.6",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/org.springframework/spring-webmvc@5.3.6",
+            "type": "library",
+            "name": "org.springframework:spring-webmvc",
+            "version": "5.3.6",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "0a166d4fb7651acede3db2e47a77048355b4a7fa02b292a2a58a046c11a54775"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "http://licenses.nuget.org/Apache-2.0"
+                    }
+                },
+                {
+                    "license":
+                    {
+                        "id": "BSD-3-Clause",
+                        "url": "http://opensource.org/licenses/BSD-3-Clause"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/org.springframework/spring-webmvc@5.3.6",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/org.springframework/spring-websocket@5.3.6",
+            "type": "library",
+            "name": "org.springframework:spring-websocket",
+            "version": "5.3.6",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "7549d8ca09ad12a09a849571a00536c7b59e3fd40720c7d8979c2594434d0492"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "http://licenses.nuget.org/Apache-2.0"
+                    }
+                },
+                {
+                    "license":
+                    {
+                        "id": "BSD-3-Clause",
+                        "url": "http://opensource.org/licenses/BSD-3-Clause"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/org.springframework/spring-websocket@5.3.6",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/org.yaml/snakeyaml@1.27",
+            "type": "library",
+            "name": "org.yaml:snakeyaml",
+            "version": "1.27",
+            "hashes":
+            [
+                {
+                    "alg": "SHA-256",
+                    "content": "7e7cce6740ed705bfdfaac7b442c1375d2986d2f2935936a5bd40c14e18fd736"
+                }
+            ],
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "http://licenses.nuget.org/Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/org.yaml/snakeyaml@1.27",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:maven/org.yaml/snakeyaml@1.30",
+            "type": "library",
+            "name": "org.yaml:snakeyaml",
+            "version": "1.30",
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "http://licenses.nuget.org/Apache-2.0"
+                    }
+                }
+            ],
+            "purl": "pkg:maven/org.yaml/snakeyaml@1.30",
+            "properties":
+            [
+                {
+                    "name": "bsi:component:executable",
+                    "value": "executable"
+                },
+                {
+                    "name": "bsi:component:archive",
+                    "value": "archive"
+                },
+                {
+                    "name": "bsi:component:structured",
+                    "value": "structured"
+                }
+            ]
+        }
+    ],
+    "dependencies":
+    []
+}
