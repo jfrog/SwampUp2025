@@ -10,5 +10,6 @@
     "git.showWarningOnLargeRepositories": false,
     "git.ignoreMissingGitWarning": true,
     "git.openRepositoryInParentFolders": "never",
-    "extensions.autoUpdate": false
+    "extensions.autoUpdate": false,
+    "remote.ports.notifyOnPortForward": false
 }
