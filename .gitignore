@@ -30,3 +30,4 @@ JFTD-*/.DS_Store
 
 ### VS Code ###
 .vscode/
+.github/.DS_Store
