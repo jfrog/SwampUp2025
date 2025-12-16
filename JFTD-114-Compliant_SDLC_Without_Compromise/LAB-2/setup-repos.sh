@@ -18,7 +18,7 @@ setup(){
 create-remote-repos(){
     # Create new REMOTE repo and refer https://jfrog.com/help/r/jfrog-rest-apis/create-multiple-repositories
     printf "\n\n 1. Creating REMOTE repositories \n"
-    reposData="[ { \"key\": \"jftd114-lab2-mvn-remote\", \"packageType\": \"maven\", \"rclass\": \"remote\", \"url\": \"https://repo1.maven.org/maven2/\", \"xrayIndex\": true} ]"
+    reposData="[ { \"key\": \"jftd114-lab2-npm-remote\", \"packageType\": \"npm\", \"rclass\": \"remote\", \"url\": \"https://registry.npmjs.org\", \"xrayIndex\": true} ]"
 
     repoResponse=$(jf rt curl -XPUT /api/v2/repositories/batch --header 'Content-Type: application/json' --data "$reposData")
     printf "Remote Repositories created:\n $repoResponse \n\n"
@@ -26,7 +26,7 @@ create-remote-repos(){
 create-local-repos(){
     # Create new LOCAL repo and refer https://jfrog.com/help/r/jfrog-rest-apis/create-multiple-repositories
     printf "\n\n 2. Creating LOCAL repositories \n"
-    reposData="[ {\"key\": \"jftd114-lab2-mvn-local\", \"packageType\": \"maven\", \"rclass\": \"local\", \"xrayIndex\": true }  ]"
+    reposData="[ {\"key\": \"jftd114-lab2-npm-local\", \"packageType\": \"npm\", \"rclass\": \"local\", \"xrayIndex\": true }  ]"
 
     repoResponse=$(jf rt curl -XPUT /api/v2/repositories/batch --header 'Content-Type: application/json' --data "$reposData")
     printf "LOCAL Repositories created:\n $repoResponse \n\n"
@@ -36,12 +36,9 @@ create-virtual-repos(){
     # Create new virtual repos
     printf "\n\n 3. Creating VIRTUAL repositories \n"
 
-    reposData="[ { \"key\": \"jftd114-lab2-mvn-virtual\", \"packageType\": \"maven\", \"rclass\": \"virtual\", \"description\": \"The virtual repository public description\", \"defaultDeploymentRepo\": \"jftd114-lab2-mvn-local\", \"repositories\": [ \"jftd114-lab2-mvn-local\", \"jftd114-lab2-mvn-remote\"], \"xrayIndex\": true }]"
+    reposData="[ { \"key\": \"jftd114-lab2-npm-virtual\", \"packageType\": \"npm\", \"rclass\": \"virtual\", \"description\": \"The virtual repository public description\", \"defaultDeploymentRepo\": \"jftd114-lab2-npm-local\", \"repositories\": [ \"jftd114-lab2-npm-local\", \"jftd114-lab2-npm-remote\"], \"xrayIndex\": true }]"
 
-    # refer 1 virtual repo: https://jfrog.com/help/r/jfrog-rest-apis/create-repository
-    # repoResponse=$(jf rt curl -XPUT /api/repositories/jftd114-mvn-virtual --header 'Content-Type: application/json' --data "$reposData")
     repoResponse=$(jf rt curl -XPUT /api/v2/repositories/batch --header 'Content-Type: application/json' --data "$reposData")
-    
     printf "VIRTUAL Repository created:\n $repoResponse \n\n"
 }
 
